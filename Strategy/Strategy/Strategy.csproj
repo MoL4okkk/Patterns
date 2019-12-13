@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IStrategy.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Strategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
