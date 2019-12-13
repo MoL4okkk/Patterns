@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library
+namespace Strategy
 {
-    public class IDontKnowWhatIMustToDo
+    public interface IStrategy
     {
+        int math(int a, int b, int c);
     }
 }
